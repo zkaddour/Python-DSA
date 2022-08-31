@@ -19,3 +19,9 @@ def IsString(value):
     else:
         return False
 
+def IsBool(value):
+    # Returns True if the value is a boolean and False otherwise
+    if type(value) is bool:
+        return True
+    else:
+        return False

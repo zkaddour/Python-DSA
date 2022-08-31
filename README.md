@@ -8,7 +8,7 @@ This shouldn't be taken as a tutorial, but rather a reference in the future for 
 
 This chapter will discuss the basics of Python such as math operations, data types, control flow and much more.
 
-- **dataTypes** : A data type is a category for values and every value belongs to exactly one data type. The most common data types in python are integers (int) which represent whole numbers. Numbers with a decimal point are called floating-point numbers (float). Text values are called strings (str), they are always surrounded in single quote (') characters to identify where the string begins and ends.
+- **dataTypes** : A data type is a category for values and every value belongs to exactly one data type. The most common data types in python are integers (int) which represent whole numbers. Numbers with a decimal point are called floating-point numbers (float). Text values are called strings (str), they are always surrounded in single quote (') characters to identify where the string begins and ends. A boolean (bool) is a binary value that can either be True or False, and is usually used to evaluate the truthfulness of statments.
 
 - **mathOperators** : The order of operation (also called predence) of Python math operators is similar to that of mathematics: The exponent operator is evaluated first; the multiplication, division, floor division and modulus operators are evaluated next, from left to right; and the addition and substraction operators are evaluated last (also from left to right). Parantheses can be used to override the usual predecence if needed.
 
