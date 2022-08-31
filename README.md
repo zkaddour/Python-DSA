@@ -6,13 +6,17 @@ This shouldn't be taken as a tutorial, but rather a reference in the future for 
 
 ## Chapter 1: Basic Language
 
-This folder will contain functions and classes that are native to the Python language and do not require any modules to function:
+This chapter will discuss the basics of Python such as math operations, data types, control flow and much more.
 
-- **lexical.md** : This file dicusses the core language from a lexical viewpoint. This includes: line structure, identifiers, operators and delimiters.
+- **dataTypes** : A data type is a category for values and every value belongs to exactly one data type. The most common data types in python are integers (int) which represent whole numbers. Numbers with a decimal point are called floating-point numbers (float). Text values are called strings (str), they are always surrounded in single quote (') characters to identify where the string begins and ends.
+
+- **mathOperators** : The order of operation (also called predence) of Python math operators is similar to that of mathematics: The exponent operator is evaluated first; the multiplication, division, floor division and modulus operators are evaluated next, from left to right; and the addition and substraction operators are evaluated last (also from left to right). Parantheses can be used to override the usual predecence if needed.
+
+- **stringFunctions** : The meaning of an operator may change based on the data types of the values next to it. For example, `+` is the addition operation on two integers or floats. However, when `+` is used on two string values, it joins them as the string concatentation operator. Attempting to concatenate a string with an int or float number will result in an error as Python expects the user to explicitly convert the integer to a string because Python cannot do this automatically.
 
 ## Ressources
 
 I will use a multitude of ressources while I work on this repo, I wish to give them all credits but I apologize if I miss any:
 
-- [The Python Language Reference](https://docs.python.org/3/reference/index.html)
-- [The Python Standard Library](https://docs.python.org/3/library/index.html)
+- [Automate the Boring Stuff with Python by Al Sweigart](https://nostarch.com/automatestuff2)
+- [Python Cookbook, 3rd Edition by David Beazley, Brian K. Jones](https://www.oreilly.com/library/view/python-cookbook-3rd/9781449357337/)
